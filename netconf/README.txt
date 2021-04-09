@@ -4,7 +4,11 @@
 #
 # Please go through this prior script execution  
 #
+#  
+#
 ####################################################
+
+THE SCRIPT "bgp.py" is written for IOSXR platform. So execute the script on Cisco IOSXR device.
 
 1. Filter used to config are stored in the file 
     bgp_cfg_all_data.txt ==> To configure all configs needed to bring up BGP.

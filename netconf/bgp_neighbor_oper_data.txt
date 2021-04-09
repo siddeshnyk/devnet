@@ -1,0 +1,20 @@
+           <filter>
+             <bgp xmlns="http://cisco.com/ns/yang/Cisco-IOS-XR-ipv4-bgp-oper">
+              <instances>
+               <instance>
+                <instance-active>
+                 <default-vrf>
+                  <neighbors>
+                   <neighbor>
+                    <neighbor-address>1.1.1.1</neighbor-address>
+                    <connection-state/>
+                    <local-as/>
+                    <remote-as-number/>
+                   </neighbor>
+                 </neighbors>
+               </default-vrf>
+              </instance-active>
+             </instance>
+            </instances>
+           </bgp>
+          </filter>
