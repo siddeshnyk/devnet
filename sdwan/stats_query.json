@@ -1,0 +1,34 @@
+{
+  "query": {
+    "condition": "AND",
+    "rules" : [
+        {
+        "value": ["24"],
+        "field": "entry_time",
+        "type": "date",
+        "operator":"last_n_hours"
+        },
+        {
+         "value": [
+           "10.10.1.1"
+         ],
+         "field": "vdevice_name",
+         "type": "string",
+         "operator": "in"
+       }
+
+    ]
+  },
+  "fields": [
+    "entry_time",
+    "cpu_user_new",
+    "mem_util"
+  ],
+  "sort" : [
+    {
+      "field": "entry_time",
+      "type": "date",
+      "order": "asc"
+    }
+  ]
+}
